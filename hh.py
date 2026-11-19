@@ -9,7 +9,8 @@ def printer():
         print(i)
 
 printer()
-songinput = input("AHHHHHHHHH")
+im = Image.open("R.png")
+songinput = input("AHHHHHHHHH ")
 pygame.mixer.music.load(songinput)
 pygame.mixer.music.play()
 while pygame.mixer.music.get_busy:
